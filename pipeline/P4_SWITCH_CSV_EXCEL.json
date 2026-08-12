@@ -44,7 +44,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"on": {
-						"value": "@activity('LKP_GET_FILETYPE_CSV_EXCEL').output",
+						"value": "@activity('LKP_GET_FILETYPE_CSV_EXCEL').output.firstRow.L4_switch_type",
 						"type": "Expression"
 					},
 					"cases": [
@@ -76,10 +76,10 @@
 							]
 						},
 						{
-							"value": "sql",
+							"value": "wait",
 							"activities": [
 								{
-									"name": "Wait1",
+									"name": "Wait",
 									"type": "Wait",
 									"dependsOn": [],
 									"userProperties": [],
