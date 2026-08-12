@@ -1,0 +1,19 @@
+{
+	"name": "DS_SNOWFLAKE_Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_BLOB_SNOWFLAKE",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "input"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
