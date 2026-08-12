@@ -1,0 +1,31 @@
+{
+	"name": "PL_SWITCH_CSV_EXCEL",
+	"properties": {
+		"activities": [
+			{
+				"name": "LKUP_GET_FILETYPE_CSV_EXCEL",
+				"type": "Lookup",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": []
+			}
+		],
+		"parameters": {
+			"Trigger": {
+				"type": "string"
+			}
+		},
+		"variables": {
+			"Mapping": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
