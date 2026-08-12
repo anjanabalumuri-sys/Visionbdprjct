@@ -1,0 +1,354 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-VB8B-ETL-DEV8"
+		},
+		"DS_CSV_ADLS_accountKey": {
+			"value": ""
+		},
+		"DS_EXCEL_ADLS_accountKey": {
+			"value": ""
+		},
+		"DS_Excel1_accountKey": {
+			"value": ""
+		},
+		"DS_JSON_Parquet1_accountKey": {
+			"value": ""
+		},
+		"DS_SqlServerTable1_password": {
+			"value": ""
+		},
+		"LS_ADLS_Excel1_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_Json1_accountKey": {
+			"value": ""
+		},
+		"LS_API_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_AzureSqlDatabase2_password": {
+			"value": ""
+		},
+		"LS_AzureSqlTable1_password": {
+			"value": ""
+		},
+		"LS_AzureSqlTable2_password": {
+			"value": ""
+		},
+		"LS_AzureSqlTableCSVEXCEL_password": {
+			"value": ""
+		},
+		"LS_CSVADLS_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_EXCEL_AzureSqlTable1_password": {
+			"value": ""
+		},
+		"LS_CSV_Parquet_accountKey": {
+			"value": ""
+		},
+		"LS_CSV_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_DelimitedText1_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_EXCEL_Parquetfile_accountKey": {
+			"value": ""
+		},
+		"LS_JSON_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_JSON_ParquetADLS_accountKey": {
+			"value": ""
+		},
+		"LS_Json1_accountKey": {
+			"value": ""
+		},
+		"LS_Json_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_RESTAPI_PAR_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_ADLS_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_DelimitedText1_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_SFTP_SINK_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SINK_SFTP_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_SNOWFLAKE_Parquet1_connectionString": {
+			"value": ""
+		},
+		"LS_SQL_PARQUET_accountKey": {
+			"value": ""
+		},
+		"LS_SQL_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_SnowflakeTable_password": {
+			"value": ""
+		},
+		"LS_SnowflakeTable1_password": {
+			"value": ""
+		},
+		"LS_SqlServer1_password": {
+			"value": ""
+		},
+		"LS_AzureSqlTable3_password": {
+			"value": ""
+		},
+		"DS_EXCELAzureSqlTable1_password": {
+			"value": ""
+		},
+		"DS_SPAzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_SPAzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"DS_CSV_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"DS_EXCEL_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"DS_Excel1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"DS_JSON_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"DS_SqlServerTable1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"DS_SqlServerTable1_properties_typeProperties_database": {
+			"value": "VBFINALPROJECT"
+		},
+		"DS_SqlServerTable1_properties_typeProperties_userName": {
+			"value": "anjanatriveda"
+		},
+		"LS_ADLS_Excel1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_ADLS_Json1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_API_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_AzureSqlDatabase2_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlDatabase2_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlDatabase2_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_AzureSqlTable1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlTable1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlTable1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_AzureSqlTable2_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlTable2_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlTable2_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_AzureSqlTableCSVEXCEL_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlTableCSVEXCEL_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlTableCSVEXCEL_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_BLOB_SNOWFLAKE_sasUri": {
+			"value": ""
+		},
+		"LS_CSVADLS_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_CSV_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_CSV_EXCEL_AzureSqlTable1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_CSV_EXCEL_AzureSqlTable1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_CSV_EXCEL_AzureSqlTable1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_CSV_Parquet_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_CSV_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_DelimitedText1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_EXCEL_Parquetfile_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_JSON_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_JSON_ParquetADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_Json1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_Json_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_RESTAPI_PAR_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_RestResource1_properties_typeProperties_url": {
+			"value": "https://retoolapi.dev/sQPdm0/data"
+		},
+		"LS_SFTP_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_SFTP_ADLS_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_SFTP_DelimitedText1_properties_typeProperties_url": {
+			"value": "https://adlsdevisionboardraw01.dfs.core.windows.net/"
+		},
+		"LS_SFTP_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_SFTP_SINK_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_SINK_SFTP_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_SQL_PARQUET_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_SQL_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsdevvbsorce0012.dfs.core.windows.net/"
+		},
+		"LS_SnowflakeTable_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"LS_SnowflakeTable1_properties_typeProperties_database": {
+			"value": "DBAZURESNOW"
+		},
+		"LS_SnowflakeTable1_properties_typeProperties_role": {
+			"value": "ACCOUNTADMIN"
+		},
+		"LS_SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SqlServer1_properties_typeProperties_database": {
+			"value": "VBFINALPROJECT"
+		},
+		"LS_SqlServer1_properties_typeProperties_userName": {
+			"value": "anjanatriveda"
+		},
+		"Tr_sample_csv_properties_PL_MASTER_parameters_Trigger": {
+			"value": "Tr_sample_csv"
+		},
+		"LS_AzureSqlTable3_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_AzureSqlTable3_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_AzureSqlTable3_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"DS_EXCELAzureSqlTable1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"DS_EXCELAzureSqlTable1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"DS_EXCELAzureSqlTable1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"DS_SPAzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"DS_SPAzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"DS_SPAzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"LS_SPAzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "sql-srvr-vb-dev12.database.windows.net"
+		},
+		"LS_SPAzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "sql-db-vb-dev"
+		},
+		"LS_SPAzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "access-data-dev"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
