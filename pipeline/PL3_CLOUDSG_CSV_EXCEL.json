@@ -52,7 +52,7 @@
 							"value": "Azure",
 							"activities": [
 								{
-									"name": "Execute_EXCEL",
+									"name": "Execute_CSV",
 									"type": "ExecutePipeline",
 									"dependsOn": [],
 									"policy": {
@@ -61,7 +61,7 @@
 									"userProperties": [],
 									"typeProperties": {
 										"pipeline": {
-											"referenceName": "PL_EXCEL",
+											"referenceName": "PL_CSV",
 											"type": "PipelineReference"
 										},
 										"waitOnCompletion": true
