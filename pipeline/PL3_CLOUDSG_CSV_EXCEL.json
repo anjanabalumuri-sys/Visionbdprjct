@@ -49,27 +49,6 @@
 					},
 					"cases": [
 						{
-							"value": "Azure",
-							"activities": [
-								{
-									"name": "Execute Pipeline1",
-									"type": "ExecutePipeline",
-									"dependsOn": [],
-									"policy": {
-										"secureInput": false
-									},
-									"userProperties": [],
-									"typeProperties": {
-										"pipeline": {
-											"referenceName": "PL_EXCEL",
-											"type": "PipelineReference"
-										},
-										"waitOnCompletion": true
-									}
-								}
-							]
-						},
-						{
 							"value": "aws",
 							"activities": [
 								{
@@ -93,6 +72,27 @@
 									"userProperties": [],
 									"typeProperties": {
 										"waitTimeInSeconds": 1
+									}
+								}
+							]
+						},
+						{
+							"value": "Azure",
+							"activities": [
+								{
+									"name": "Execute_EXCEL",
+									"type": "ExecutePipeline",
+									"dependsOn": [],
+									"policy": {
+										"secureInput": false
+									},
+									"userProperties": [],
+									"typeProperties": {
+										"pipeline": {
+											"referenceName": "PL_EXCEL",
+											"type": "PipelineReference"
+										},
+										"waitOnCompletion": true
 									}
 								}
 							]
